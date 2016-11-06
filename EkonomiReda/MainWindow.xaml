@@ -1,0 +1,63 @@
+﻿<Window x:Class="EkonomiReda.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="700" Width="525">
+    <Grid Name="MainGrid" Background="AliceBlue" >
+        <Grid.ColumnDefinitions>            
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />            
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" IsMainMenu="True" Background="AliceBlue">
+            <MenuItem Header="_File" >
+                <MenuItem Header="_Open File" Click="MenuOpenFile_Click"/>
+                <MenuItem Header="_Exit" Click="MenuExit_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Edit">
+            </MenuItem>
+            <MenuItem Header="_View" />
+            <MenuItem Header="_Window" />
+            <MenuItem Header="_Help" />
+        </Menu>
+        <Button Grid.Row="1" Grid.Column="1" Name="OpenCsv_Button" Content="Open CSV" Click="OpenCsv_Button_Click" Width="100" HorizontalAlignment="Center" Margin="2" />
+        <Button Grid.Row="1" Grid.Column="2" Name="SaveCsv_Button" Content="Save CSV" Click="SaveCsv_Button_Click" Width="100" HorizontalAlignment="Center" Margin="2" />
+        <Button Grid.Row="1" Grid.Column="3" Name="ViewWholeYear_Button" Content="View Year" Click="ViewWholeYear_Button_Click" Width="100" HorizontalAlignment="Center" Margin="2" />
+       
+        
+        <DataGrid Name="CsvGrid" Grid.Row="2" Grid.ColumnSpan="5" AlternatingRowBackground="Aquamarine" AutoGenerateColumns="True" Background="AliceBlue" VerticalAlignment="Top" />
+        
+        <StatusBar Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="5" Height="20" Background="AliceBlue" >
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StatusBarItem Grid.Column="0">
+                <TextBlock Text="Current File: "/>
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="1">
+                <TextBlock Name="CurrentOpenFile_TextBlock" />
+            </StatusBarItem>
+            <Separator Grid.Column="2" />
+            <StatusBarItem Grid.Column="3">
+                <TextBlock Name="AdditionaInfo_TextBlock" />
+            </StatusBarItem>
+        </StatusBar>
+
+    </Grid>
+</Window>

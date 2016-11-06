@@ -1,0 +1,11 @@
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\bin\Debug\EkonomiReda.exe
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\bin\Debug\EkonomiReda.pdb
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\MainWindow.baml
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\App.g.cs
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda_MarkupCompile.cache
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.g.resources
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.Properties.Resources.resources
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.csproj.GenerateResource.Cache
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.exe
+C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.pdb

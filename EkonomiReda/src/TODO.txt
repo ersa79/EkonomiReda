@@ -1,0 +1,19 @@
+﻿Database
+- Create
+- Implement methods
+   - Read
+   - Save
+   - Etc
+
+Categorise expenses
+- User can decide which category
+- Save category to expense
+
+
+
+Functionality
+- Show sum of expenses for custom time period
+- 
+
+
+Etc... etc..
