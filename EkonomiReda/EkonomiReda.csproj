@@ -56,10 +56,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EditRowWindow.xaml.cs">
+      <DependentUpon>EditRowWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="src\BillRow.cs" />
     <Compile Include="src\Csv.cs" />
     <Compile Include="src\CsvRow.cs" />
     <Compile Include="src\Utils.cs" />
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+    </Compile>
+    <Page Include="EditRowWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -72,6 +82,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserControl1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -99,6 +113,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="src\TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\IO\" />
+    <Folder Include="src\Presentation\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

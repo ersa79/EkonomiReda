@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Ersa\documents\visual studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\
 EkonomiReda
 none
 false
 DEBUG;TRACE
-C:\Users\Ersa\documents\visual studio 2010\Projects\EkonomiReda\EkonomiReda\App.xaml
-11151548125
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\App.xaml
+3786808851
 
-9-131985020
+11-2363172
 133653272
-MainWindow.xaml;
+EditRowWindow.xaml;MainWindow.xaml;UserControl1.xaml;
 
 False
 

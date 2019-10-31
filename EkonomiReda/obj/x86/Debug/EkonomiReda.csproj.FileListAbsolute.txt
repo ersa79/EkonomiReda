@@ -9,3 +9,21 @@ C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\
 C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.csproj.GenerateResource.Cache
 C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.exe
 C:\Users\Ersa\Documents\Visual Studio 2010\Projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.pdb
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\bin\Debug\EkonomiReda.exe
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\bin\Debug\EkonomiReda.pdb
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.csprojAssemblyReference.cache
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\MainWindow.baml
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\MainWindow.g.cs
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\App.g.cs
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda_MarkupCompile.cache
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.g.resources
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.Properties.Resources.resources
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.csproj.GenerateResource.cache
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.csproj.CoreCompileInputs.cache
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.exe
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda.pdb
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EditRowWindow.g.cs
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EkonomiReda_MarkupCompile.lref
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\EditRowWindow.baml
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\UserControl1.g.cs
+C:\cygwin\home\funckjoh\projects\EkonomiReda\EkonomiReda\obj\x86\Debug\UserControl1.baml

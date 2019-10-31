@@ -121,6 +121,22 @@ namespace EkonomiReda
 
         }
 
+        private void CsvGrid_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (CsvGrid.SelectedItem == null) return;
+            var selectedRow = CsvGrid.SelectedItem as CsvRow;
+            EditRowWindow editPersonWindow = new EditRowWindow(CsvGrid.SelectedItem as CsvRow);
+            //EditRowWindow editPersonWindow = new EditRowWindow(&CsvGrid.SelectedItem);
 
+            //EditRowWindow editPersonWindow = new EditRowWindow
+            //{
+            //    //editPersonWindow.bind
+            //    Owner = this
+
+            //};
+            editPersonWindow.ShowDialog();
+
+            //if(editPersonWindow.DialogResult = 
+        }
     }
 }

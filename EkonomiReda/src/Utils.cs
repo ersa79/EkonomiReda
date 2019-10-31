@@ -11,15 +11,15 @@ namespace EkonomiReda.src
 {
     static class Utils
     {
-        static string INSURANCE = "Insurance";
-        static string PHONETVBROADBAND = "PhoneTvBroadband";
-        static string FOOD = "Food";
-        static string UNCATEGORIZED = "Uncategorized";
-        static string ELECTRICAL = "Electrical";
-        static string HOUSE = "House";
-        static string PETROL = "Petrol";
-        static string LOAN = "Loan";
-        static string CLOTHES = "Clothes";
+        static readonly string INSURANCE = "Insurance";
+        static readonly string PHONETVBROADBAND = "PhoneTvBroadband";
+        static readonly string FOOD = "Food";
+        static readonly string UNCATEGORIZED = "Uncategorized";
+        static readonly string ELECTRICAL = "Electrical";
+        static readonly string HOUSE = "House";
+        static readonly string PETROL = "Petrol";
+        static readonly string LOAN = "Loan";
+        static readonly string CLOTHES = "Clothes";
 
         public static ObservableCollection<CsvRow> ReadFileToCsvRowCollection(string filename, string delimiter, Encoding encoding)
         {
@@ -115,7 +115,7 @@ namespace EkonomiReda.src
         public static Csv ReadFile(string filename)
         {
             Csv csvFile;
-            List<BillRow> billRows = new List<BillRow>();
+            List<RawDataRow> billRows = new List<RawDataRow>();
             //CsvHeader csvHeader = null;                      
 
             using (TextFieldParser parser = new TextFieldParser(filename))
@@ -128,7 +128,7 @@ namespace EkonomiReda.src
                     {
                         break;
                     }                    
-                    billRows.Add(new BillRow(parts, false));                    
+                    billRows.Add(new RawDataRow(parts, false));                    
                 }
                 csvFile = new Csv(billRows);                
             }
@@ -158,7 +158,7 @@ namespace EkonomiReda.src
             regexList.Add(CLOTHES, new Regex("ELLOS|HM|H&M|BON PRIX", RegexOptions.IgnoreCase));
 
 
-            foreach (BillRow row in csvFile.GetRows())
+            foreach (RawDataRow row in csvFile.GetRows())
             {
                 Decimal amount;
                 try

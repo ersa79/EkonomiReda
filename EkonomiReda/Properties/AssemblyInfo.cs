@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyTitle("EkonomiReda")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Funck-IT")]
 [assembly: AssemblyProduct("EkonomiReda")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]

@@ -7,9 +7,9 @@ namespace EkonomiReda.src
 {
     class Csv
     {
-        List<BillRow> Rows;        
+        private List<RawDataRow> Rows;        
         
-        public Csv(List<BillRow> rows)
+        public Csv(List<RawDataRow> rows)
         {
             this.Rows = rows;            
         }
@@ -17,9 +17,9 @@ namespace EkonomiReda.src
         override public string ToString()
         {
             string csvToString = "";
-            foreach (BillRow row in Rows)
+            foreach (RawDataRow row in Rows)
             {
-                csvToString += row.ToString() + "\n";
+                csvToString += row.ToString(";") + "\n";
             }
             return csvToString;
         }
@@ -29,7 +29,7 @@ namespace EkonomiReda.src
             return Rows.Count;
         }
 
-        public List<BillRow> GetRows()
+        public List<RawDataRow> GetRows()
         {
             return Rows;
         }
