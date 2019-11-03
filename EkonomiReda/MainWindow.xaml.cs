@@ -138,5 +138,15 @@ namespace EkonomiReda
 
             //if(editPersonWindow.DialogResult = 
         }
+
+        private void CsvGrid_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if((e.Column.Header.ToString() == "Date") ||
+               (e.Column.Header.ToString() == "Amount") ||
+               (e.Column.Header.ToString() == "Balance"))
+            {
+                e.Column.IsReadOnly = true;
+            }
+        }
     }
 }
