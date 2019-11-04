@@ -37,7 +37,8 @@
         <DataGrid Name="CsvGrid" Grid.Row="2" Grid.ColumnSpan="5" 
                   AlternatingRowBackground="Aquamarine" AutoGenerateColumns="True" 
                   Background="AliceBlue" VerticalAlignment="Top" CanUserSortColumns="True"
-                  MouseDoubleClick="CsvGrid_MouseDoubleClick" AutoGeneratingColumn="CsvGrid_AutoGeneratingColumn">
+                  MouseDoubleClick="CsvGrid_MouseDoubleClick" AutoGeneratingColumn="CsvGrid_AutoGeneratingColumn"
+                  DataContext="Binding Source">
             
         </DataGrid>
 

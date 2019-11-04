@@ -16,13 +16,6 @@ namespace EkonomiReda
         private CsvRow CsvRow { get;  set; }
         public Selector Selector;
 
-
-        //public EditRowWindow()
-        //{
-        //    InitializeComponent();
-        //    //CsvRow = csvRow;
-        //}
-
         public EditRowWindow(CsvRow csvRow)
         {
             InitializeComponent();
@@ -30,29 +23,17 @@ namespace EkonomiReda
             Transaction_TextBox.Text = csvRow.Transaction;
             Category_TextBox.Text = csvRow.Category;
             SubCategory_ListBox.Items.Add(csvRow.Category);
-
-
         }
-
-        //public EditRowWindow(Selector csvRow)
-        //{
-        //    InitializeComponent();
-        //    Selector = csvRow;
-        //}
-
+ 
         private void SaveRow_Button_Click(object sender, RoutedEventArgs e)
         {
-
+            //TODO: if any changes, validate and make sure changes are saved
+            DialogResult = true;
         }
 
         private void CancelRow_Button_Click(object sender, RoutedEventArgs e)
         {
-
+            DialogResult = false;
         }
-
-        //public EditRowWindow(CsvRow csvRow)
-        //{
-        //    InitializeComponent();
-        //}
-    }
+     }
 }

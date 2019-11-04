@@ -36,6 +36,8 @@ namespace EkonomiReda
             //TODO: Implement
         }
 
+        //private void OpenFileDialog
+
         private void OpenFileAction()
         {
             Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
@@ -62,20 +64,7 @@ namespace EkonomiReda
 
         private void MenuOpenFile_Click(object sender, RoutedEventArgs e)
         {
-            Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
-
-            // Display OpenFileDialog by calling ShowDialog method 
-            Nullable<bool> result = dlg.ShowDialog();
-            
-            // Get the selected file name and display in a TextBox 
-            if (result == true)
-            {
-                string filename = dlg.FileName;
-                // Open document                
-                CurrentOpenFile_TextBlock.Text = dlg.FileName;
-                ObservableCollection<CsvRow> csvRowCollection = Utils.ReadFileToCsvRowCollection(filename, ",", Encoding.UTF8);
-                CsvGrid.ItemsSource = csvRowCollection;
-            }
+            OpenFileAction();
         }
 
         private void SaveCsv_Button_Click(object sender, RoutedEventArgs e)
